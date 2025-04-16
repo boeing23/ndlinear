@@ -17,7 +17,7 @@ The goal is to compare the two in terms of:
 
 To make it interactive, I created a Gradio demo where users can upload an image and see side-by-side model predictions and performance.
 
-🧠 Model Architecture
+# Model Architecture
 ```
 Conv2d(3, 32, kernel_size=3)
 ReLU + MaxPool
@@ -31,7 +31,7 @@ NdLinear / nn.Linear (128 -> #classes)
 Dataset: 18 One Piece characters (Luffy, Zoro, Nami, etc.) from a Kaggle dataset.
 Image Size: 64x64
 
-🎮# Gradio Demo
+# Gradio Demo
 
 Upload a One Piece character image to get real-time predictions and a comparison chart.
 
@@ -42,8 +42,8 @@ The app displays:
 - Parameter count
 
 A bar chart showing performance difference
-"""
+```
 pip install torch torchvision ndlinear gradio matplotlib
 python app.py
 
-"""
+```
