@@ -30,6 +30,8 @@ NdLinear / nn.Linear (128 -> #classes)
 ```
 Dataset: 18 One Piece characters (Luffy, Zoro, Nami, etc.) from a Kaggle dataset.
 Image Size: 64x64
+Dataset Link: - [One Piece Dataset (Kaggle)](https://www.kaggle.com/datasets/ibrahimserouis99/one-piece-image-classifier)
+
 
 # Gradio Demo
 
