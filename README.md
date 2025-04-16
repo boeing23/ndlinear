@@ -18,7 +18,7 @@ The goal is to compare the two in terms of:
 To make it interactive, I created a Gradio demo where users can upload an image and see side-by-side model predictions and performance.
 
 🧠 Model Architecture
-"""
+'''
 Conv2d(3, 32, kernel_size=3)
 ReLU + MaxPool
 Conv2d(32, 64, kernel_size=3)
@@ -27,7 +27,7 @@ Flatten
 NdLinear / nn.Linear (64 * 16 * 16 -> 128)
 NdLinear / nn.Linear (128 -> #classes)
 
-"""
+'''
 Dataset: 18 One Piece characters (Luffy, Zoro, Nami, etc.) from a Kaggle dataset.
 Image Size: 64x64
 
