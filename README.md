@@ -2,7 +2,7 @@
 
 This project is my submission for the Summer/Fall 2025 ML Research Internship at Ensemble, showcasing a practical and creative use of the open-source NdLinear layer for shrinking and accelerating neural networks.
 
-🚀 ### Project Overview
+🚀 # Project Overview
 
 I built a deep learning model that classifies characters from the anime One Piece using images. The model is implemented in PyTorch and trained twice:
 
